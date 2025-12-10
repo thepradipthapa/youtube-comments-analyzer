@@ -6,3 +6,5 @@ __pycache__/
 .env
 logs/
 *.log
+
+fronend/node_modules/

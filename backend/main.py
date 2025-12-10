@@ -11,7 +11,6 @@ from uuid import uuid4
 from pydantic_ai import Agent
 from collections import defaultdict
 from prompts import COMMENTS_ANALYSIS_PROMPT
-from pydantic_ai.models.groq import GroqModel
 
 load_dotenv()
 
@@ -57,7 +56,7 @@ def analyze(youtube_video: YoutubeVideo, background_tasks: BackgroundTasks) -> T
 
 
 def analyze_comments(task_id: str, video_id: str) -> None:
-    r.set(task_id,json.dumps({"status": "processing", "data": []}))
+    r.set(task_id,json.dumps({"status": "processing", "data": {}}))
 
     comments = get_youtube_comments(video_id, settings.youtube_api_key)
 
