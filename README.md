@@ -59,9 +59,9 @@ cd backend
 uv sync
 uv fastapi run dev
 ```
-# Contribute
+## Contribute
 Feel free to improve this project. If you have awesome ideas on your mind, please don't hesitate to open a pull request.
 
 
-# Thanks
+## Thanks
 Thank you for using checking this project. If you like this  project don't forget give it a ⭐, it motivates me 😄.
