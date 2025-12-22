@@ -57,7 +57,7 @@ npm run dev
 # Terminal -> 3
 cd backend
 uv sync
-uv fastapi run dev
+uv run fastapi dev
 ```
 ## Contribute
 Feel free to improve this project. If you have awesome ideas on your mind, please don't hesitate to open a pull request.
